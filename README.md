@@ -1,3 +1,5 @@
+
+
 # Pet Visit Record System (PVRS) v1.0
 
 A web-based system for managing clients, patients, and appointments for PetLink Caloocan veterinary clinic.
@@ -58,7 +60,7 @@ Follow these steps to set up the system on a local server.
    - Update the `$password` variable on line 6 with your MySQL root password.
 
 **4. Access the System:**
-   - You can now access the system by navigating to: **http://localhost/petlink-php/**
+   - You can now access the system by navigating to: **http://localhost\petlink-php\index.php**
    - *Note: If your XAMPP uses a different port, adjust the URL accordingly (e.g., http://localhost:8080/petlink-php/).*
 
 ---
@@ -70,10 +72,6 @@ Two default user accounts are created by the database import:
 - **Admin Account:**
   - **Username:** `admin`
   - **Password:** `123`
-
-- **Staff Account:**
-  - **Username:** `staff`
-  - **Password:** `staff123`
 
 
 It is highly recommended to change these passwords after the first login.
